@@ -1,0 +1,6 @@
+interface:
+  display_name: 'Ponytail Lite'
+  short_description: '主动约束计划、编码或审查中的过度设计和无必要实现'
+  default_prompt: '使用 $ponytail-lite 完成当前编码任务；先理解调用链，再选择满足需求的最小实现。'
+policy:
+  allow_implicit_invocation: false
